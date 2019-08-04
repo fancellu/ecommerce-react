@@ -6,8 +6,8 @@ import MenuItem from "../menu-item/menu-item.component";
 class Directory extends React.Component {
     constructor() {
         super()
-        this.state ={
-            sections:  [
+        this.state = {
+            sections: [
                 {
                     title: 'hats',
                     imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
@@ -41,13 +41,13 @@ class Directory extends React.Component {
                     linkUrl: 'shop/mens'
                 }
             ]
-    }
+        }
     }
 
     render() {
         return (<div className="directory-menu">
             {
-                this.state.sections.map(({ id, ...sectionsProps}) => (
+                this.state.sections.map(({id, ...sectionsProps}) => (
                     <MenuItem key={id} {...sectionsProps}/>
                 ))
             }
