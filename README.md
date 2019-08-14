@@ -1,3 +1,7 @@
+# ecommerce-react
+
+Example react shopping app with Node.js, React, React Router, Redux, Firebase, Reselect
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
